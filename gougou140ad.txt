@@ -1,0 +1,61 @@
+[Adblock Plus 3.1]
+! Checksum: /X5BFTGuEK6JRSf7tCFqkA
+! Version: 202206101704
+! Title: ABP filters
+! Last modified: 10 Jun 2022 17:04 UTC
+! Expires: 1 hours (update frequency)
+! Homepage: https://github.com/abp-filters/
+!
+! Filter list designed to fight circumvention ads (including, in some cases, their tracking) and fix critical issues for Adblock Plus users
+!
+! Please report any issues
+! on GitHub https://github.com/abp-filters/abp-filters-anti-cv/issues
+! or via filters+cv@adblockplus.org
+! 
+! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/arabic.txt ***
+! MISC
+3sk.io,3sk.co,33sk.tv,esheeq.co#$#abort-on-property-read atob; abort-on-property-write Fingerprint2; abort-on-property-read decodeURIComponent; abort-on-property-read RegExp
+3oloum.com,7olm.org,ahladalil.com,syriaforums.net,ahlamontada.com,alamontada.com,arabepro.com,banouta.net,gid3an.com,jordanforum.net,yoo7.com,forumalgerie.net,own0.com##a[onclick^="this.href=atob"]
+3oloum.com,7olm.org,ahladalil.com,syriaforums.net,ahlamontada.com,alamontada.com,arabepro.com,banouta.net,gid3an.com,jordanforum.net,yoo7.com,forumalgerie.net,own0.com#$#abort-on-property-read atob
+! #CV-685
+arabseed.co,arabseed.com,arabseed.me,arabseed.net,arabseed.tv#$#abort-on-property-read atob; abort-on-property-read decodeURI; abort-on-property-read decodeURIComponent
+hawak.net,hawak.tv,rotana.video#$#abort-on-property-read atob
+! #CV-667
+beinconnect.us,coroot.blogspot.com,ktarab.com,shofnow.com,actionz.tv,brstej.com,jaewinter.co,movs4u.live,mvs4u.tv,kora-online.tv,filmey.tv,cima4u.tv,animetak.net,arabseed.tv,arabseed.co,arabseed.com,arabseed.me,arabseed.net,shahid4u.com,shahid4u.net#$#abort-current-inline-script Math zfgloaded
+! Popup/Popunder/Clickunder
+egyanime.com,egydead.com,egydead.live#$#abort-on-property-write _pop
+actionz.tv,cimaclub.com,cimaclub.in,elmstba.com,hawak.net,hawak.tv,lodynet.co,lodynet.dev,lodynet.ink,lodynet.live,lodynet.tv,rotana.video#$#abort-on-property-read decodeURIComponent
+cima-club.cc,cima-club.in,cima-club.io,egy.best,egybest.asia,egybest.bid,egybest.biz,egybest.cheap,egybest.co,egybest.com,egybest.cool,egybest.fail,egybest.life,egybest.ltd,egybest.ist,egybest.name,egybest.net,egybest.network,egybest.ninja,egybest.nl,egybest.online,egybest.org,egybest.pw,egybest.rocks,egybest.site,egybest.xyz,egybest.zone,egybest2.com,faselhd.top,iegy.best#$#abort-on-property-read open
+anime4up.com,arabseed.me,baramjak.com,cima-club.cc,cima-club.in,cima-club.io,cima4u.cloud,cima4u.film,cima4u.ws,egynow.live,faselhd.top,hawak.net,lodynet.co,lodynet.dev,lodynet.ink,lodynet.live,lodynet.tv,manga.ae,movizland.com,movizland.cyou,movizland.online,egyanime.com,egydead.com,egydead.live,shahed4u.casa,shahed4u.cloud,shahed4u.red,shahed4u.ws,tuktukcinema.co,witanime.com,yalla-shoot.today#$#abort-current-inline-script JSON.parse /atob|break/; abort-current-inline-script String.fromCharCode /atob|break/; abort-current-inline-script Math /atob|break/
+faselhd.top#$#abort-current-inline-script parseInt /break|case/
+arabxd.com#$#abort-current-inline-script document.querySelectorAll popMagic
+! #CV-754
+akwam.cc,akoam.com,akoam.net,akwam.co,akwam.cx,akwam.net,akwam.org,gateanime.com,gocoo.co#$#abort-on-property-read String.fromCharCode
+! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/bulgarian.txt ***
+! #CV-667
+gledaiseriali.net#$#abort-current-inline-script Math zfgloaded
+! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/chinese.txt ***
+! #CV-767
+ipv6.baidu.com,xueshu.baidu.com,www.baidu.com,www1.baidu.com#$#hide-if-contains 广告 .c-container '.f13 > .m'; hide-if-contains 广告 #content_right>[class] span[data-tuiguang]
+1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com#$#abort-on-property-read Object.prototype.loadImage
+baidu.com#$#hide-if-contains 广告 #content_right>div .ec-tuiguang
+baidu.com#$#hide-if-contains 广告 #content_left>div .ec-tuiguang
+! MISC
+torrentkitty.tv#$#abort-on-property-read _fupfgk;abort-on-property-read _nyjdy
+178.com,nga.cn#$#abort-on-property-write __LOAD_BBS_ADS_12
+cn.bing.com#$#hide-if-contains 360 #b_results>li .b_adProvider
+2345.com#$#abort-current-inline-script setDefaultTheme
+ahri-hentai.com#$#abort-current-inline-script document.querySelectorAll popMagic
+ifenpaidy.com#$#abort-on-property-read localStorage
+! Popups & Popunders
+cocomanga.com#$#abort-on-property-read __cad.cpm_popunder; abort-on-property-read __ad
+madouqu.com,madouqu.tk#$#abort-current-inline-script document.querySelectorAll popMagic
+editcode.net#$#abort-current-inline-script setTimeout openAd
+! Video ads
+iyingshi9.tv#$#override-property-read YZM.ads.state false
+! #CV-667
+hdzone.org#$#abort-current-inline-script Math zfgloaded
+! *** Fetched from: https://raw.githubusercontent.com/abp-filters/abp-filters-anti-cv/master/czech.txt ***
+! #CV-655
+##div[class*="i3228f6905bcc38c2d6c8d4c179be2753"]
+##div[class*="p65880621e21ffaa889d6f3efebbef8c0"]
